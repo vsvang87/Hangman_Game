@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <h1>Hangman</h1>
+    <p>Find the hidden word - Enter a letter</p>
+
+    <div class="game-container">
+      <!--Rod-->
+      <svg height="250" width="200" class="figure-container">
+        <line x1="60" y1="20" x2="140" y2="20" />
+        <line x1="140" y1="20" x2="140" y2="50" />
+        <line x1="60" y1="20" x2="60" y2="230" />
+        <line x1="20" y1="230" x2="100" y2="230" />
+        <!--Head-->
+        <circle cx="140" cy="70" r="20" />
+        <!--Body-->
+        <line x1="140" y1="90" x2="140" y2="150" />
+        <!--right arm-->
+        <line x1="140" y1="100" x2="110" y2="120" />
+        <!--Left arm-->
+        <line x1="140" y1="100" x2="170" y2="110" />
+        <!--Right Leg-->
+        <line x1="140" y1="150" x2="120" y2="180" />
+        <!--Left Leg-->
+        <line x1="140" y1="150" x2="160" y2="180" />
+      </svg>
+    </div>
+    <script src="/js/hangman.js"></script>
+  </body>
+</html>
