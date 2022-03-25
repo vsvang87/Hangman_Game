@@ -101,6 +101,7 @@ h1 {
   position: absolute;
   bottom: -85px;
   transition: transform 0.3s ease-in-out;
+  display: none;
 }
 
 .notification-container.show {
